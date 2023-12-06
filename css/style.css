@@ -7,7 +7,9 @@ body {
   font-weight: 400;
   line-height: 1.5;
 }
-.logo-link {
+
+/* header section*/
+.header-logo {
   font-family: Raleway, sans-serif;
   color: #4d5ae5;
   font-size: 18px;
@@ -18,13 +20,13 @@ body {
   letter-spacing: 0.03em;
   text-transform: uppercase;
 }
-.logo-header {
+.header-logo-black {
   color: #2e2f42;
   line-height: 1.17;
   letter-spacing: 0.03em;
   text-transform: uppercase;
 }
-.link {
+.header-link {
   color: #2e2f42;
   font-size: 16px;
   font-weight: 500;
@@ -32,26 +34,28 @@ body {
   text-decoration: none;
   letter-spacing: 0.02em;
 }
-.link:hover,
-.link:focus {
+.header-link:hover,
+.header-link:focus {
   color: #404bbf;
 }
-.address {
+.header-address-list {
   color: #2e2f42;
   font-style: normal;
   letter-spacing: 0.02em;
 }
-.address-link {
+.header-address-link {
   color: #434455;
   background-color: #ffffff;
   font-size: 16px;
   line-height: 1.5;
   text-decoration: none;
 }
-.address-link:hover,
-.address-link:focus {
+.header-address-link:hover,
+.header-address-link:focus {
   color: #404bbf;
 }
+/*unique content*/
+
 .section-hero {
   background-color: #2e2f42;
 }
@@ -131,7 +135,7 @@ h2 {
   color: #f4f4fd;
   letter-spacing: 0.02em;
 }
-.logo-footer {
+.header-logo-white {
   color: #f4f4fd;
   line-height: 1.17;
   letter-spacing: 0.03em;
