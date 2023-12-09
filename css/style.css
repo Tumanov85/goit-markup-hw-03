@@ -1,4 +1,39 @@
+/* Стилі для обнулення верхніх відступів у елементів */
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+  margin: 0;
+}
 
+/* Клас для обнулення базових властивостей списків (ul) */
+ul {
+  list-style: none;
+  padding-left: 0;
+  margin: 0;
+}
+
+/* Клас для обнулення базових властивостей у посилань */
+a {
+  text-decoration: none;
+}
+
+/* Властивості для коректного відображення картинок */
+img {
+  display: block;
+  max-width: 100%;
+  height: auto;
+}
+
+/* Властивості для обнулення курсиву address */
+
+address {
+  font-style: normal;
+
+}
 
 body {
   font-family: Roboto, sans-serif;
@@ -11,7 +46,28 @@ body {
 }
 
 /* header section*/
+.header-container {
+display: flex;
+align-items: center;
+justify-content: space-between;
+padding: 0 28px;
+position: relative;
+margin-left: auto;
+
+}
+
+.header-nav{
+  display: flex;
+  align-items: center;
+  margin-right: auto;
+
+}
+
 .header-logo {
+
+  display: inline-flex;
+  align-items: center;
+  margin-right: 76px;
   font-family: Raleway, sans-serif;
   color: #4d5ae5;
   font-size: 18px;
@@ -28,7 +84,17 @@ body {
   letter-spacing: 0.03em;
   text-transform: uppercase;
 }
+
+.header-list{
+  display: flex;
+  gap: 40px;
+  align-items: center;
+
+}
 .header-link {
+display: block;
+  padding-top: 24px;
+  padding-bottom: 24px;
   color: #2e2f42;
   font-size: 16px;
   font-weight: 500;
@@ -40,7 +106,10 @@ body {
 .header-link:focus {
   color: #404bbf;
 }
+
 .header-address-list {
+  display: flex;
+  gap: 40px;
   color: #2e2f42;
   font-style: normal;
   letter-spacing: 0.02em;
@@ -57,11 +126,15 @@ body {
   color: #404bbf;
 }
 /*unique content*/
-
+/* hero*/
 .hero {
   background-color: #2e2f42;
 }
-.main-hero {
+.hero-container {
+padding: 188px 472px 292px;
+}
+.hero-title {
+  
   color: #ffffff;
   background-color: #2e2f42;
   text-align: center;
@@ -84,6 +157,8 @@ body {
 .hero-button:focus {
   background: #404bbf;
 }
+
+/*feature*/
 h2 {
   color: #2e2f42;
   font-size: 36px;
