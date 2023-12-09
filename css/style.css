@@ -181,11 +181,34 @@ display: block;
 }
 
 /*feature*/
+.feature{
+  padding: 120px 0;
+}
 h2 {
   color: #2e2f42;
   font-size: 36px;
   font-weight: 700;
   line-height: 1.1111;
+}
+.feature-list{
+  display: flex;
+  justify-content: center;
+  gap: 24px;
+
+}
+.feature-caption {
+  margin-bottom: 8px;
+  color: #2e2f42;
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 1.2;
+  letter-spacing: 0.02em;
+}
+.feature-item{
+  color: #434455;
+  font-size: 16px;
+  letter-spacing: 0.02em;
+  width: 264px;
 }
 
 .text-main {
@@ -195,10 +218,12 @@ h2 {
   line-height: 1.2;
   letter-spacing: 0.02em;
 }
+
 .text {
   color: #434455;
   font-size: 16px;
   letter-spacing: 0.02em;
+  
 }
 .team {
   color: #2e2f42;
