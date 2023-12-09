@@ -34,6 +34,18 @@ address {
   font-style: normal;
 
 }
+.visually-hidden {
+  position: absolute;
+  white-space: nowrap;  
+  width: 1px;
+  height: 1px;
+  overflow: hidden;
+  border: 0;
+  padding: 0;
+  clip: rect(0 0 0 0);
+  clip-path: inset(50%);
+  margin: -1px;
+}
 
 body {
   font-family: Roboto, sans-serif;
@@ -184,12 +196,7 @@ display: block;
 .feature{
   padding: 120px 0;
 }
-h2 {
-  color: #2e2f42;
-  font-size: 36px;
-  font-weight: 700;
-  line-height: 1.1111;
-}
+
 .feature-list{
   display: flex;
   justify-content: center;
@@ -210,26 +217,15 @@ h2 {
   letter-spacing: 0.02em;
   width: 264px;
 }
-
-.text-main {
-  color: #2e2f42;
-  font-size: 20px;
-  font-weight: 500;
-  line-height: 1.2;
-  letter-spacing: 0.02em;
-}
-
-.text {
-  color: #434455;
-  font-size: 16px;
-  letter-spacing: 0.02em;
-  
-}
+/* our team*/
 .team {
+  padding-top: 120px;
+  padding-bottom: 120px;
   color: #2e2f42;
   background-color: #f4f4fd;
 }
 .team-title {
+  padding-bottom: 72px;
   color: #2e2f42;
   text-align: center;
   text-transform: capitalize;
@@ -238,11 +234,38 @@ h2 {
   letter-spacing: 0.02em;
 }
 .team-list {
+  display: flex;
+  gap: 24px;
+  justify-content: space-evenly;
   background-color: #ffffff;
+
 }
 .team-card {
+  width: 264px;
   background-color: #ffffff;
 }
+.team-caption{
+  color: #2e2f42;
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 1.2;
+  letter-spacing: 0.02em;
+  padding-top: 32px;
+  padding-bottom: 8px;
+}
+.team-item{
+  color: #434455;
+  font-size: 16px;
+  letter-spacing: 0.02em;
+  padding-bottom: 32px;
+}
+
+/*portfolio*/
+
+.portfolio{
+  padding-top: 120px;
+}
+
 .portfolio-title {
   color: #2e2f42;
   text-align: center;
@@ -264,4 +287,18 @@ h2 {
   line-height: 1.17;
   letter-spacing: 0.03em;
   text-transform: uppercase;
+}
+.text-main {
+  color: #2e2f42;
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 1.2;
+  letter-spacing: 0.02em;
+}
+
+.text {
+  color: #434455;
+  font-size: 16px;
+  letter-spacing: 0.02em;
+
 }
