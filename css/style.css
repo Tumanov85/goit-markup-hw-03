@@ -233,6 +233,7 @@ display: block;
   line-height: 1.11;
   letter-spacing: 0.02em;
 }
+
 .team-list {
   display: flex;
   gap: 24px;
@@ -264,6 +265,9 @@ display: block;
 
 .portfolio{
   padding-top: 120px;
+  padding-bottom: 120px;
+  color: #2e2f42;
+  background-color: #f4f4fd;
 }
 
 .portfolio-title {
@@ -274,7 +278,38 @@ display: block;
   line-height: 1.11;
   letter-spacing: 0.02em;
 }
+.portfolio-list{
+  display: flex;
+  gap: 24px;
+  flex-wrap: wrap
 
+}
+
+.portfolio-caption{
+  color: #2e2f42;
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 1.2;
+  letter-spacing: 0.02em;
+  padding-top: 32px;
+  padding-bottom: 8px;
+}
+
+.portfolio-item{
+  color: #2e2f42;
+  text-align: center;
+  text-transform: capitalize;
+  font-weight: 700;
+  line-height: 1.11;
+  letter-spacing: 0.02em;
+}
+
+
+
+
+
+
+/*footer*/
 .footer {
   background-color: #2e2f42;
 }
