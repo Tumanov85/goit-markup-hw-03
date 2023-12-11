@@ -52,6 +52,9 @@ body {
   margin-right: auto;
 }
 /* header section*/
+.header {
+  border-bottom: 1px solid #e7e9fc;
+}
 .header-container {
   display: flex;
   align-items: center;
@@ -59,7 +62,6 @@ body {
   padding: 0 15px;
   position: relative;
   margin-left: auto;
-  border-bottom: 1px solid #e7e9fc;
 }
 
 .header-nav {
@@ -287,6 +289,7 @@ body {
 }
 .portfolio-list {
   display: flex;
+  column-gap: 24px;
   row-gap: 48px;
   flex-wrap: wrap;
 }
